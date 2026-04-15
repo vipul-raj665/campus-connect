@@ -1,0 +1,170 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* THEMES */
+body.light {
+  background: #f5f7fb;
+  color: #111;
+}
+
+body.dark {
+  background: #0f172a;
+  color: white;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 230px;
+  padding: 20px;
+  background: #111827;
+  color: white;
+}
+
+.sidebar a {
+  display: block;
+  margin: 12px 0;
+  text-decoration: none;
+  color: #cbd5f5;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  background: white;
+  color: #111;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background: white;
+}
+
+/* DARK CARD */
+body.dark .card {
+  background: #1e293b;
+  color: white;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background: #e5e7eb;
+  color: black;
+}
+
+body.dark input,
+body.dark textarea {
+  background: #0f172a;
+  color: white;
+}
+
+/* BUTTON */
+.btn {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+}
+
+/* AVATAR */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* CHAT */
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.chat-msg {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.sent {
+  background: #3b82f6;
+  color: white;
+  margin-left: auto;
+}
+
+.received {
+  background: #e5e7eb;
+  color: black;
+}
+
+body.dark .received {
+  background: #334155;
+  color: white;
+}
+
+/* AUTH */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+}
+
+body.dark .auth-card {
+  background: #1e293b;
+  color: white;
+}
+
+.auth-switch {
+  margin-top: 10px;
+  color: #3b82f6;
+  cursor: pointer;
+}
